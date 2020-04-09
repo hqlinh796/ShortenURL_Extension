@@ -1,0 +1,126 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    
+}
+#wrapper {
+    width: 300px;
+    font-size: 20px;
+    -webkit-box-shadow: -1px 10px 29px -1px rgba(0,0,0,0.54);
+    -moz-box-shadow: -1px 10px 29px -1px rgba(0,0,0,0.54);
+    box-shadow: -1px 10px 29px -1px rgba(0,0,0,0.54);
+}
+header {
+    font-size: 25px;
+    height: 50px;
+    text-align: center;
+    background-color: #1f4997;
+    color: #fff;
+    line-height: 50px;
+    font-weight: bold;
+}
+.logo {
+    height: 20px;
+    object-fit: cover;
+}
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0, 0, 10, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 10, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    line-height: 14px;
+}
+form {width: 85%;}
+section form > div {
+    margin-bottom: 15px;
+    ;
+}
+form > div > label:first-child {margin-right: 15px;}
+
+form > input[type=text] {
+    height: 35px;
+    width: 100%;
+    margin-bottom: 13px;
+    padding: 5px;
+    font-size: 13px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 1px solid rgba(158, 158, 158, 0.2);
+    
+}
+
+button {
+    width: 40%;
+    display: block;
+    border-radius: 3px;
+    padding: 8px;
+    cursor: pointer;
+    background-color: #1f4997;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.1s ease-in-out;
+    margin-top: 15px;
+}
+button:hover {
+    background-color: #2955a7;
+}
+
+footer {
+    background-color: #cecece;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #1f4997;
+}
+a:hover {
+    color: #2b5ab1;
+}
+
+.result-wrapper {
+    width: 80%;
+}
+h1 {
+    font-size: 18px;
+    color: #474747;
+    display: inline-block;
+}
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    display: inline;
+}
+.result-wrapper div {
+    display: flex;
+    justify-content: center;
+}
+.result-wrapper div button {
+    font-size: 14px;
+    width: 80px;
+    margin-right: 10px;
+}
+#url-result {
+    border: 0;
+    font-size: 16px;
+    font-weight: normal;
+    display: inline;
+}
+
+.dis-none {
+    display: none !important;
+}
+.successful {
+    color: #1f974d;
+}
+.error {
+    color: rgb(167, 17, 17);
+}
+
