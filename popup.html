@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Shorten url</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <img class="logo" src="images/logo.png" alt="logo">
+        </header>
+        <section>
+            
+            <form>
+                <div>
+                    <label for="random-link">
+                        <input type="radio" name="type-short-link" id="random-link" checked>
+                        Random
+                    </label>
+                    <label for="custom-link">
+                        <input type="radio" name="type-short-link" id="custom-link">
+                        Custom
+                    </label>
+                </div>
+                <input type="text" placeholder="Long link" required id="long-link-input">
+                <input class="dis-none" id="custom-link-input" type="text" placeholder="Custom link, ex: myvideo2020">
+                <button type="submit" id="create-button">Create</button>
+            </form>
+            
+            <div class="result-wrapper dis-none">
+                <h1>Status:</h1>
+                <h2 id="status">Create successfully</h2>
+                <br>
+                <h1>Result:</h1>
+                <input id="url-result" value="" disabled>
+                <div>
+                    <button id="new-button">New</button>
+                    <button id="copy-button">Copy</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            Developed by <a href="www.fb.com/linhcuoi796">Linh</a> :P
+        </footer>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
